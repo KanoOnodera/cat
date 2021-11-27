@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+/* common */
+
+
+h1{
+  font-size: 20px;
+  /*  */
+}
+
+h2{
+  font-size: 24px;
+  /*  */
+}
+
+h3{
+  font-size: 16px;
+  /*  */
+}
+
+
+/* header */
+header ul{
+  display: none;
+}
+
+/* main visual */
+.main-visual{
+  height: 40vh;
+  /*  */
+}
+
+
+.main-visual h2{
+  left:30%;
+  /*  */
+  font-size:30px;
+  /*  */
+}
+
+
+
+.introduction h2{
+  font-size: 30px;
+  /*  */
+}
+
+.introduction p{
+  padding-top:30px;
+  /*  */
+  font-size:18px;
+  /*  */
+}
+
+
+/* contents */
+.contents{
+  height: 200vh;
+  /*  */
+}
+
+.contents-wrapper h2{
+  padding-bottom: 20px;
+}
+
+.contents-box {
+  display: block;
+  /*  */  
+}
+
+.contents-card:nth-child(n + 2) {
+  padding-top:40px;
+  /*  */
+}
+
+.contents-card {
+  width: 100%;
+  
+}
+
+
+
+.contents-card p {
+  padding-top: 10px;
+  /*  */
+  
+}
+
+
+
+.QA{
+  padding-top:50px;
+  /*  */ 
+ 
+}
+
+.QA-wrapper {
+  padding:50px 0px;
+}
+
+.QA>h2{
+  font-size:35px;
+  /*  */
+}
+
+
+
+.QA-box:nth-child(n + 2) {
+  padding-top: 50px;
+  /*  */
+}
+
+.QA-box>p {
+  padding-top: 30px;
+  /*  */
+}
+
+
+form>h2{
+  font-size:30px
+  /*  */
+}
+
+.form-wrapper {
+  padding-top: 20px;
+  /*  */
+}
+
+.form-wrapper p {
+  margin-bottom: 20px;
+  /*  */
+}
+
+.form-box {
+  padding-top:30px;
+ 
+}
+
+
+
+.box {
+  height:30px;
+  width:300px;
+  font-size: 100%;
+  text-align: left;
+}
+
+.question {
+  width: 300px;
+  height: 100px;
+  font-size:100%;
+}
+
+.submit-btn {
+  text-align: center;
+  width: 80px; 
+  margin: 0 auto;
+}
+
+
+.button{
+  display: inline-block; 
+  border-radius: 10%;
+  cursor:pointer;
+  padding:10px 40px;
+  margin-top: 20px;
+  background: #333366;
+  color:#fff;
+  font-size: 20px;
+  
+  box-shadow: 3px 3px 2px #666666;
+  
+}
+
+.button:hover {
+  box-shadow:none;
+  background:#333366;
+  color:#fff;
+  opacity:0.8;
+}
+
+.button:active {
+  transform:translateY(2px)
+}
+
+
+footer{
+  
+  height: 10vh;
+  background-color: #333366		;
+  text-align: center;
+}
+
+footer p{
+  color:white;
+  padding: 20px 0;
+
+
+}
